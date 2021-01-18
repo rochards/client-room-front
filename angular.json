@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -124,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "client-room"
+  "defaultProject": "client-room",
+  "cli": {
+    "analytics": "06221b6d-da81-4133-8ece-579fcf550ce4"
+  }
 }
