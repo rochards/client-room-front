@@ -11,8 +11,8 @@ import { RoomService } from '../room.service';
 })
 export class CreateRoomComponent implements OnInit {
 
-  room!: Room
-  submitted!: boolean
+  room = new Room()
+  submitted = false
 
   constructor(private roomService: RoomService, private router: Router) { }
 
