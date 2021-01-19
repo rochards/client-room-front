@@ -1,27 +1,23 @@
-# ClientRoom
+# Digital Innovation One - Desenvolvimento de uma aplicação de gerência de sala de reuniões.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+O projeto consiste na criação de uma aplicação para o gerenciamento de uma sala de reuniões, em que um usuário pode reservar, excluir a reserva, editar horários de reserva de uma determinada sala. O front-end foid desenvolvido em (Angular)[https://angular.io/] e o back-end em Java + (Spring)[https://spring.io/]. Para estilização da aplicação foi utilizado o (Bootstrap)[https://ng-bootstrap.github.io/#/home].
 
-## Development server
+Principais tópicos abordados:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Apresentação conceitual e implementação do padrão *observable*;
+- Implementação de rotas;
+- Utilização do Bootstrap com o Angular;
+- Integração da aplicação front-end com o back-end;
 
-## Code scaffolding
+O que foi utilizado para o desenvolvimento deste projeto:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Java 11;
+- Framwork Spring;
+- Maven 3.6.3;
+- Intellij IDEA;
+- Git e GitHub;
+- VS code;
+- Angular;
+- Bootstrap.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para executar o back-end, utilize o comando `$ mvn spring-boot:run` e a API estárá disponível em `localhost:8080/api/v1/rooms`.
